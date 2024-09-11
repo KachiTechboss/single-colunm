@@ -3,11 +3,10 @@
         background-color:  hsl(218, 22%, 67%);
        margin-top: 0rem;
        margin-bottom: 0rem;
-        padding: 30px;
-        margin: 3rem auto;
+        padding: 20px;
+        margin: 3rem 1rem;
         font-family: "Karla", sans-serif;
-        width: 100vw;
-        height: 100vh;
+        
         justify-content: center;
         align-items: center;
     }
