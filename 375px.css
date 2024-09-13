@@ -1,37 +1,45 @@
-@media screen and (max-width: 475px){
+@media screen and (max-width: 768px){
     body{
         background-color:  hsl(218, 22%, 67%);
-       margin-top: 0rem;
-       margin-bottom: 0rem;
         padding: 30px;
-        margin: 3rem 1rem;
+   
         font-family: "Karla", sans-serif;
-        margin-left: 2rem;
+ 
         
         justify-content: center;
         align-items: center;
     }
+    .container {
+        flex-direction: column; /* Stack all items vertically */
+    }
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+
     
-    .first-container{
+    .div1{
         background-color:  hsl(204, 43%, 93%);
         padding: 20px;
-        text-align: left;
-        padding-right: 5rem;
-        width: 210px;
+    
+      
+        width: auto;
+       
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+        
       
     }
-    .first-container h1{
+    .div1 h1{
         color: hsl(179, 62%, 43%);
         font-size: 20px;
     }
-    .first-container h2{
+    .div1 h2{
         color:  hsl(71, 73%, 54%);
         font-size: 14px;
     
     }
-    .first-container p{
+    .div p{
         color:  hsl(218, 22%, 67%);
         font-size: 14px;
     }
@@ -39,20 +47,18 @@
     .para{
         margin-top: -0.5rem;
         color:  hsl(218, 22%, 67%);
+    }
     
-    }
-    .second-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .content{
+
+    .div2{
         background-color:  hsl(179, 62%, 43%);
         padding: 30px;
         text-align: left;
-        width: 250px;
+        width: auto;
         border-bottom-left-radius: 0px;
+
     }
-    .content h1{
+    .div2 h1{
         color:  hsl(204, 43%, 93%);
         margin-top: 1rem;
         font-size: 20px;
@@ -68,7 +74,7 @@
         color:  hsl(204, 43%, 93%);
     }
     .num p{
-        color:  hsl(218, 22%, 67%);
+        color:   hsl(204, 43%, 93%);
         font-size: 14px;
     }
     
@@ -78,32 +84,33 @@
         margin-bottom: 2rem;
     }
     .access{
-        color:  hsl(218, 22%, 67%);
+        color:   hsl(204, 43%, 93%);
         font-size: 14px;
     }
     
-    .sign{
+    .btn{
         background-color:  hsl(71, 73%, 54%);
-        color:  hsl(218, 22%, 67%);
+        color:  hsl(204, 43%, 93%);
         border-radius: 5px;
         text-align: center;
-        padding: 8px;
-        height: 30px;
-        margin-bottom: 1rem;
-        width: 210px;
+        padding: 15px 8px;
+        font-weight: bold;
+        border: none;
+        box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.13);
+       -webkit-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.13);
+        -moz-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.13);
+        width: 100%;
+    }
     
-    }
-    .sign p{
-        margin-top: 0.5rem;
-    }
-    .second-content{
+    
+    .div3{
          background-color:  hsl(179, 62%, 70%);
          padding: 25px;
-         text-align: left;
-         padding-right: 5rem;
+       
+        width: auto;
          border-bottom-right-radius: 5px;
          border-bottom-left-radius: 5px;
-         width: 205px;
+    
 
     
     
@@ -112,17 +119,13 @@
         color:  hsl(204, 43%, 93%);
         font-size: 20px;
     }
-    .list{
-        list-style: none;
-        color:  hsl(218, 22%, 67%);
-        margin-left: -2.5rem;
-    }
+   
     .style{
         margin-bottom: 0.2rem;
         font-size: 14px;
     }
     .style-d{
-        margin-bottom: -1rem;
+        margin-bottom: 0.5rem;
         font-size: 14px;
     }
-}
+}    
